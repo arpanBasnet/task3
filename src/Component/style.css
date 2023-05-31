@@ -1,0 +1,35 @@
+.big-container {
+    margin: 25px auto 0;
+    border: 2px dotted black;
+    position: relative;
+}
+
+.small-container {
+     margin: 25px auto 0;
+    border: 2px dotted black;
+   
+}
+
+.small-container-button{
+   
+    display: flex;
+    justify-content: flex-end;
+        
+}
+.fetched-data-table{
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px; /* Adjust the height as per your requirements */
+  background-color: #f0f0f0; /* Optional: Set a background color for the container */
+  overflow-y: auto; /* Enable vertical scrolling if the table height exceeds the container height */
+}
+.edit-delete-button{
+     width: 20px;
+      height: auto;
+      justify-content: center;
+}
+.error{
+    color: red;
+}
